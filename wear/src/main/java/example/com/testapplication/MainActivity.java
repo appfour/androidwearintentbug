@@ -21,7 +21,7 @@ public class MainActivity extends WearableActivity {
         mButtonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "http://play.google.com/store/apps/details?id=com.appfour.wearmail&hl=en";
+                String url = "http://www.google.com";
                 Uri uri = Uri.parse(url);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
